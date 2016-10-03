@@ -2,41 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE-edge">
+    <meta name="viewport" content="width=960">
     <title>Анна Федулова</title>
+    <link rel="stylesheet" href="css/layout/normalize.css">
+    <link rel="stylesheet" href="css/layout/adjustment.css">
+    <link rel="stylesheet" href="css/sections/header.css">
+    <link rel="stylesheet" href="css/sections/content.css">
+    <link rel="stylesheet" href="css/sections/sidebar.css">
+    <link rel="stylesheet" href="css/sections/footer.css">
 </head>
 <body>
+<!--[if lte IE9]>
+<p>Ваш браузер устрарел!!Скачайте новую <a href="http://browsehappy.com/">версию</a>.</p>
+<![endif]-->
 <div class="wrapper">
-    <header>
+    <header class="header">
         <div class="container">
-            <div>
+            <div class="about">
                 <div>
-                    <div><img src="img/content/smallphoto.jpg" alt="Моё маленькое фото"></div>
-                    <div>Анна Федулова</div>
+                    <div class="about__img"><img src="img/content/smallphoto.jpg" alt="Моё маленькое фото"></div>
+                    <div class="about__name">Анна Федулова</div>
                 </div>
             </div>
-            <div><a href="#">Мои контакты</a></div>
+            <div class="contacts">
+            <div class="contacts__link"><a href="#">Мои контакты</a></div>
+            </div>
         </div>
     </header>
-    <section>
+
+    <section class="content">
         <div class="container">
-        <aside>
-            <nav>
-                <ul>
-                    <li><a href="img/icons/about_me.png"></a></li>
-                    <li><a href="img/icons/career.png"></a></li>
-                    <li><a href="img/icons/portfolio.png"></a></li>
-                </ul>
-                <ul>
-                    <li><a href="#">Обо мне</a></li>
-                    <li><a href="#">Карьерный путь</a></li>
-                    <li><a href="#">Портфолио</a></li>
+        <aside class="nav">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list__li"><a class="menu__link menu__link__active" href="#">
+                        <span class="menu_icon"><img src="img/icons/about_me.png" alt=""></span>
+                        <span class="menu__title">Обо мне</span>
+                    </a>
+                    </li>
+                    <li class="menu__list__li"><a class="menu__link menu__link__active" href="#">
+                        <span class="menu_icon"><img src="img/icons/career.png" alt=""></span>
+                        <span class="menu__title">Карьерный путь</span>
+                    </a>
+                    </li>
+                    <li class="menu__list__li"><a class="menu__link menu__link__active" href="#">
+                        <span class="menu_icon"><img src="img/icons/portfolio.png" alt=""></span>
+                        <span class="menu__title">Портфолио</span>
+                    </a>
                 </ul>
             </nav>
         </aside>
-            <main>
+            <main class="content">
                 <div>
                     <div>
-                        <div><img src="img/content/bigphoto.jpg" alt="Моё фото"></div>
+                        <div class="content-img"><img src="img/content/bigphoto.jpg" alt="Моё фото"></div>
                     </div>
                     <div>
                         <h1>Обо мне</h1>
@@ -51,24 +71,28 @@
                 </div>
             </main>
         </div>
+
     </section>
+
+    <div class="empty"></div>
     <footer>
-        <div class="container">
-            <div>
+        <div class="footer">
+            <div class="container">
                 <div>
                     <div>&copy; Дизайн сайта был разработан в школе Loftschool</div>
                 </div>
-                <div>
-                    <ul>
-                        <li><img src="img/icons/FaceBook.png" alt="Facebook"></li>
-                        <li><img src="img/icons/vk-active.png" alt="VK"></li>
-                        <li><img src="img/icons/Twitter.png" alt="Twitter"></li>
+                <div class="social">
+                    <ul class="social-icons">
+                        <li class="social-icons-img"><img src="img/icons/FaceBook.png" alt="Facebook"></li>
+                        <li class="social-icons-img"><img src="img/icons/vk-active.png" alt="VK"></li>
+                        <li class="social-icons-img"><img src="img/icons/Twitter.png" alt="Twitter"></li>
                     </ul>
                 </div>
             </div>
-            
+
         </div>
     </footer>
 </div>
+<!--scripts-->
 </body>
 </html>

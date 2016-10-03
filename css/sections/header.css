@@ -1,0 +1,7 @@
+.header{
+    background: #ffffff;
+}
+.about__img {
+    display: inline-block;
+    border-radius: 30px;
+}

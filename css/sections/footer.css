@@ -1,0 +1,11 @@
+footer{
+    background: #414141;
+    height: 50px;
+    margin-top: -50px;
+    position: relative;
+    min-width: 960px;
+}
+.empty{
+    height: 100px;
+    background: #f6f6f6;
+}
