@@ -9,3 +9,15 @@ footer{
     height: 100px;
     background: #f6f6f6;
 }
+.footer-left{
+    text-align: left;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-right{
+    text-align: right;
+}
+.social__icons__img{
+    float: left;
+}

@@ -1,7 +1,23 @@
 .header{
+    height: 60px;
     background: #ffffff;
+    overflow: hidden;
 }
-.about__img {
+.user{
+    text-align: left;
+    float: left;
+    width: 50%;
+
+}
+.user__name{
+    display: inline-block;
+    vertical-align: middle;
+}
+.contacts{
+    text-align: right;
+
+}
+.user__img {
     display: inline-block;
     border-radius: 30px;
 }

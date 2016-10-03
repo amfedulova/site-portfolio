@@ -1,3 +1,18 @@
+
+.nav{
+    float: left;
+    width: 23%;
+}
 .content-img {
     border-radius: 110px;
+    float: left;
+}
+.about__text{
+    float: right;
+    width: 73%;
+
+}
+.about__btn{
+
+    text-align: right;
 }
