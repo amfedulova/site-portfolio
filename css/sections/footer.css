@@ -19,5 +19,6 @@ footer{
     text-align: right;
 }
 .social__icons__img{
-    float: left;
+    display: inline-block;
+
 }

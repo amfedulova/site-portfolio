@@ -20,5 +20,9 @@ html, body {
     /*width: 960px ;*/
     margin:0 auto;
     /*background: #f6f6f6;*/
-    padding: 50px;
+    /*padding: 0px;*/
+}
+.info{
+    width: 73%;
+    float: right;
 }

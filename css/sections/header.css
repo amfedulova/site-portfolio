@@ -1,13 +1,25 @@
 .header{
-    height: 60px;
+    height: 80px;
     background: #ffffff;
     overflow: hidden;
+    margin-bottom: 25px;
+
+}
+.header .container {
+    height: 80px;
+    position: relative;
 }
 .user{
     text-align: left;
     float: left;
     width: 50%;
-
+    border: 0px;
+}
+.user__img{
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    border-radius: 50%;
 }
 .user__name{
     display: inline-block;
@@ -15,7 +27,15 @@
 }
 .contacts{
     text-align: right;
+    float: left;
+    width: 50%;
+    margin-top: 30px;
 
+}
+.contacts__link{
+    text-decoration: none;
+    line-height: 28px;
+    color: #33c1e3;
 }
 .user__img {
     display: inline-block;
