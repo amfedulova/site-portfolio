@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-COMPATIBLE" content="IE-edge">
     <meta name="viewport" content="width=960">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Анна Федулова</title>
     <link rel="stylesheet" href="css/layout/normalize.css">
     <link rel="stylesheet" href="css/layout/adjustment.css">
@@ -11,16 +12,18 @@
     <link rel="stylesheet" href="css/sections/content.css">
     <link rel="stylesheet" href="css/sections/sidebar.css">
     <link rel="stylesheet" href="css/sections/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 <!--[if lte IE9]>
 <p>Ваш браузер устрарел!!Скачайте новую <a href="http://browsehappy.com/">версию</a>.</p>
 <![endif]-->
 <div class="wrapper ">
+    <div class="maincontent"></div>
     <header class="header">
         <div class="container clearfix">
             <div class="user">
-                <div>
+                <div class="user__block">
                     <div class="user__img"><img src="img/content/smallphoto.jpg" alt="Моё маленькое фото"></div>
                     <div class="user__name">Анна Федулова</div>
                 </div>
@@ -36,17 +39,17 @@
         <aside class="nav">
             <nav class="menu">
                 <ul class="menu__list">
-                    <li class="menu__list__li"><a class="menu__link menu__link__active" href="#">
+                    <li class="menu__list__li about_me"><a class="menu__link" href="#">
                         <span class="menu_icon"><img src="img/icons/about_me.png" alt=""></span>
                         <span class="menu__title">Обо мне</span>
                     </a>
                     </li>
-                    <li class="menu__list__li"><a class="menu__link menu__link__active" href="#">
+                    <li class="menu__list__li career"><a class="menu__link" href="#">
                         <span class="menu_icon"><img src="img/icons/career.png" alt=""></span>
                         <span class="menu__title">Карьерный путь</span>
                     </a>
                     </li>
-                    <li class="menu__list__li"><a class="menu__link menu__link__active" href="#">
+                    <li class="menu__list__li portfolio"><a class="menu__link" href="#">
                         <span class="menu_icon"><img src="img/icons/portfolio.png" alt=""></span>
                         <span class="menu__title">Портфолио</span>
                     </a>
@@ -91,8 +94,8 @@
                     </ul>
                 </div>
             </div>
-
         </div>
+
     </footer>
 
 <!--scripts-->

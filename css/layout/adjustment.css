@@ -24,5 +24,10 @@ html, body {
 }
 .info{
     width: 73%;
-    float: right;
+    float: left;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
 }

@@ -3,27 +3,36 @@
     background: #ffffff;
     overflow: hidden;
     margin-bottom: 25px;
-
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.27);
 }
 .header .container {
     height: 80px;
     position: relative;
 }
 .user{
+
     text-align: left;
     float: left;
     width: 50%;
     border: 0px;
+    font-size: 0px;
 }
+
 .user__img{
+    position: relative;
+    margin: 5px;
     display: inline-block;
     vertical-align: middle;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 150%;
+
 }
+
 .user__name{
     display: inline-block;
     vertical-align: middle;
+    margin-left: 15px;
+    font-size: 20px;
 }
 .contacts{
     text-align: right;

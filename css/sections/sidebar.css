@@ -6,17 +6,20 @@
     list-style: none;
 }
 
-.menu__link{
+.menu__link:link{
     display: block;
     padding: 10px 0;
     padding-right: 20px;
     margin-bottom: 15px;
     text-decoration: none;
     color: #414141;
-
-}
-.menu__link .menu__link__active{
-    color: #33c1e3;
     border-right: 6px solid ;
+    }
+.menu__link:visited{
+    color: #414141;
+}
+.menu__link:hover{
+    color: #33c1e3;
+
     border-color: #33c1e3;
 }
